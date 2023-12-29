@@ -1,3 +1,5 @@
+package dev.razshare.reactive
+
 import java.util.WeakHashMap
 
 typealias Runner = (store:Reactive)->Unit
