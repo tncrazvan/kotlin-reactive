@@ -14,12 +14,7 @@
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
     </properties>
 
-
     <repositories>
-        <repository>
-            <id>dev.razshare</id>
-            <url>https://raw.githubusercontent.com/tncrazvan/artifacts/main</url>
-        </repository>
         <repository>
             <id>mavenCentral</id>
             <url>https://repo1.maven.org/maven2/</url>
@@ -79,12 +74,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>dev.razshare</groupId>
-            <artifactId>unsafe</artifactId>
-            <version>1.0.0</version>
-            <type>jar</type>
-        </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test-junit5</artifactId>
